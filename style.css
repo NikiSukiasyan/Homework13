@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f7;
+}
+.icon {
+  color: #000;
+  border: 8px solid;
+  border-radius: 100%;
+  width: 27px;
+  height: 27px;
+  margin: 12px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header-wrapper li {
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
